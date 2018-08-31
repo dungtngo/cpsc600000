@@ -3,6 +3,7 @@ package cpsc600000;
 public class Sugar extends Ingredient
 {
 	Food ingred1;
+	String describe1 = "4 cups of sugar, ";
 	
 	public Sugar (Food ingred1sub) {
 		
@@ -10,7 +11,7 @@ public class Sugar extends Ingredient
 	}
 public String FoodDescription() {
 		
-	return  ingred1.FoodDescription()+ "4 cups of sugar, ";
+	return  ingred1.FoodDescription()+ this.describe1;
 	}
 	;
 	
