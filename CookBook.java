@@ -12,7 +12,7 @@ public class CookBook {
 		getcake = new FoodColor(getcake);
 		System.out.println(getcake.FoodDescription());
 		getcake = new Sugar(getcake);
-		System.out.print(getcake.FoodDescription());
+		System.out.println(getcake.FoodDescription());
 		getcake = new Whip(getcake);
 		System.out.println(getcake.FoodDescription());
 	}
