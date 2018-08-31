@@ -5,16 +5,16 @@ public class CookBook {
 	public static void main (String arg[]) 
 	{
 		
-		Food getcake = new Cake();
-		System.out.println(getcake.FoodDescription());
-		getcake = new Milk(getcake);
-		System.out.println(getcake.FoodDescription());
-		getcake = new FoodColor(getcake);
-		System.out.println(getcake.FoodDescription());
-		getcake = new Sugar(getcake);
-		System.out.println(getcake.FoodDescription());
-		getcake = new Whip(getcake);
-		System.out.println(getcake.FoodDescription());
+		Food food = new Cake();
+		System.out.println(food.FoodDescription());
+		food = new Milk(food);
+		System.out.println(food.FoodDescription());
+		food = new FoodColor(food);
+		System.out.println(food.FoodDescription());
+		food = new Sugar(food);
+		System.out.println(food.FoodDescription());
+		food = new Whip(food);
+		System.out.println(food.FoodDescription());
 	}
 
 }
