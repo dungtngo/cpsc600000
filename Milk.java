@@ -13,7 +13,7 @@ public class Milk extends Ingredient
 	
 	public String FoodDescription() {
 		
-		return  ingred1.FoodDescription() + this.discribe1;
+		return  ingred1.FoodDescription() + discribe1;
 	}
 	;
 }

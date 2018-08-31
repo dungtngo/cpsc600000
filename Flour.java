@@ -12,7 +12,7 @@ public class Flour extends Ingredient
 	
 public String FoodDescription() {
 		
-		return  ingred1.FoodDescription() + this.describe1;
+		return  ingred1.FoodDescription() + describe1;
 	}
 	;
 }

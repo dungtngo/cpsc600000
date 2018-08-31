@@ -11,7 +11,7 @@ public class Sugar extends Ingredient
 	}
 public String FoodDescription() {
 		
-	return  ingred1.FoodDescription()+ this.describe1;
+	return  ingred1.FoodDescription()+ describe1;
 	}
 	;
 	
