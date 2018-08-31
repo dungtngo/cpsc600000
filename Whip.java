@@ -10,7 +10,7 @@ public class Whip extends Ingredient
 	}
 public String FoodDescription() {
 		
-		return  "and alot of whip cream, ";
+		return  ingred1.FoodDescription() + "and alot of whip cream, ";
 	}
 	;
 	
